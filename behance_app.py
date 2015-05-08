@@ -8,12 +8,21 @@ Behance client application in Python
 
 
 __author__ = 'Rajendra Kumar Uppal'
+__copyright__ = "Copyright 2015, Rajendra Kumar Uppal"
+__credits__ = ["Rajendra Kumar Uppal"]
+__license__ = "MIT"
+__version__ = "0.1"
+__maintainer__ = "Rajendra Kumar Uppal"
+__email__ = "rajen.iitd@gmail.com"
+__status__ = "Production"
 
 
 from behance_python.api import API
 
 
-API_KEY = 'krFXz0JBgKT5OVYaVRrh9ouWEHSwqycu'
+# Register your Behance app at https://www.behance.net/dev/register 
+# and generate API key
+API_KEY = 'your api key'
 
 
 def behance_client():
